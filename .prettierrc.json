@@ -1,0 +1,19 @@
+{
+  "arrowParens": "avoid",
+  "importOrder": [
+    "^(react|next(.*))$",
+    "<THIRD_PARTY_MODULES>",
+    "^@/(.*)$",
+    "^[./]"
+  ],
+  "importOrderCaseInsensitive": true,
+  "importOrderParserPlugins": [
+    "classProperties",
+    "decorators-legacy",
+    "jsx",
+    "typescript"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "semi": false
+}
